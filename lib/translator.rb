@@ -16,7 +16,7 @@ def load_library(emo_path)
   return emo_lib
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(emo_path, emo_lib)
   # code goes here
 end
 
