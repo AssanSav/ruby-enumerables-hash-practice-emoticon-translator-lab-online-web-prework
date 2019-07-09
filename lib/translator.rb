@@ -11,7 +11,7 @@ def load_library(emo_path)
     english = value[0]
     japanese = value[1]
     emo_lib["get_meaning"][japanese] = key
-    binding.pry
+    #binding.pry
   end
 end
 
