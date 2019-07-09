@@ -21,6 +21,7 @@ def get_english_meaning
 end
 
 
+
 =begin
 require 'yaml'
 YAML.load_file("./lib/emoticons.yml")
