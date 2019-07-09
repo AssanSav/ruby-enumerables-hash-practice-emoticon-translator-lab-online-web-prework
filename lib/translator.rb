@@ -20,7 +20,7 @@ def get_english_meaning
   # code goes here
 end
 
-
+#the keys inside the 'get_meaning' hash are the Japanese emoticons
 
 =begin
 require 'yaml'
