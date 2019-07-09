@@ -10,7 +10,7 @@ def load_library(emo_path)
   emo_path.each do |key, value|
     english = value[0]
     japanese = value[1]
-    
+    emo_lib["get_meaning"][japanese] = key
     binding.pry
   end
 end
