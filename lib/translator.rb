@@ -26,7 +26,7 @@ end
 
 def get_english_meaning(emo_path, emo_lib)
   new_path = load_library(emo_path)
-  
+  english_emo = emo_lib[]
 end
 
 =begin
