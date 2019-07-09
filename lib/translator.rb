@@ -19,7 +19,7 @@ end
 
 def get_japanese_emoticon(emo_path, emo_lib)
   new_path = load_library(emo_path)
-  emoticons_japanese = new_path["get_emoticon"][emo_lib]
+  japanese_emo = new_path["get_emoticon"][emo_lib]
   emoticons_japanese ? emoticons_japanese : "Sorry, that emoticon was not found"
 end 
 
