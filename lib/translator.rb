@@ -14,6 +14,7 @@ def load_library(emo_path)
     emo_lib["get_emoticon"][english] = japanese
     #binding.pry
   end
+  return emo_lib
 end
 
 def get_japanese_emoticon
