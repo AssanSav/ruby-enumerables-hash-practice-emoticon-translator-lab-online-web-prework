@@ -24,8 +24,8 @@ def get_japanese_emoticon(emo_path, emo_lib)
 end 
 
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(emo_path)
+  new_path = 
 end
 
 =begin
