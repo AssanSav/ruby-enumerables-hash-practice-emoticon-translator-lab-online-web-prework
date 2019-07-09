@@ -8,7 +8,8 @@ def load_library(emo_path)
               "get_emoticon" => {}
   }
   emo_path.each do |key, value|
-  binding.pry
+    binding.pry
+  end
 end
 
 def get_japanese_emoticon
