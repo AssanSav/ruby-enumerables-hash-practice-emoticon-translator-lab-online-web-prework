@@ -12,7 +12,7 @@ def load_library(emo_path)
     japanese = value[1]
     emo_lib["get_meaning"][japanese] = key
     emo_lib["get_emoticon"][english] = japanese
-    binding.pry
+    #binding.pry
   end
   return emo_lib
 end
@@ -20,7 +20,7 @@ end
 def get_japanese_emoticon(emo_path, emo_lib)
   new_path = load_library(emo_path)
   emoticons_japanese = new_path["get_emoticon"] = japanese
-  binding.pry
+  #binding.pry
 end
 
 def get_english_meaning
