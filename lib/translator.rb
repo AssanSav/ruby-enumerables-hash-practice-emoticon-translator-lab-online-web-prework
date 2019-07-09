@@ -37,9 +37,3 @@ def get_english_meaning(path, emoticon)
   emoticons_english = new_path['get_meaning'][emoticon]
   emoticons_english ? emoticons_english : "Sorry, that emoticon was not found"
 end
-
-# angel:
-# - "O:)"      
-#  - "?(???)?"
-# angry:
-=end
