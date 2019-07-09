@@ -1,7 +1,8 @@
 require 'yaml'
+YAML.load_file("./lib/emoticons.yml")
 
 def load_library(file_path)
-  YAML.load_file("./lib/emoticons.yml")
+  
 end
 
 def get_japanese_emoticon
@@ -12,7 +13,8 @@ def get_english_meaning
   # code goes here
 end
 
-require 'pry'
+
+=begin
 require 'yaml'
 YAML.load_file("./lib/emoticons.yml")
 
@@ -49,3 +51,4 @@ end
 # - "O:)"      
 #  - "?(???)?"
 # angry:
+=end
