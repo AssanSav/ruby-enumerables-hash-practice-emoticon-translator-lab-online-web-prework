@@ -30,11 +30,3 @@ def get_english_meaning(emo_path, emo_lib)
   english_emo ? english_emo : "Sorry, that emoticon was not found"
 end
 
-=begin
-  
-def get_english_meaning(path, emoticon)
-  new_path = load_library(path)
-  emoticons_english = new_path['get_meaning'][emoticon]
-  emoticons_english ? emoticons_english : "Sorry, that emoticon was not found"
-end
-=end
